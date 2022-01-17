@@ -1,2 +1,3 @@
-# level-up-news-strapi
-strapi news site 
+# Strapi application
+
+A quick description of your strapi application
