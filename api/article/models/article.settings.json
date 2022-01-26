@@ -48,6 +48,12 @@
     "author": {
       "via": "articles",
       "model": "writer"
+    },
+    "section_category": {
+      "type": "string"
+    },
+    "article_author": {
+      "type": "string"
     }
   }
 }
