@@ -29,10 +29,6 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
-      "model": "category",
-      "via": "articles"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -45,14 +41,10 @@
       "required": true,
       "pluginOptions": {}
     },
-    "author": {
-      "via": "articles",
-      "model": "writer"
-    },
-    "section_category": {
+    "category": {
       "type": "string"
     },
-    "article_author": {
+    "author": {
       "type": "string"
     }
   }
